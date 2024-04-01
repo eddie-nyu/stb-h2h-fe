@@ -1,0 +1,200 @@
+// External Imports
+
+// Bulma color customization
+
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb;
+// Add pink and its invert
+$pink: #ffb3b3;
+$pink-invert: #fff;
+$turquoise: #0FEFE8;
+$offwhite: #FAF9F6;
+
+$uyu-black: #090909;
+$jeff-text: #b7b7b7;
+
+$uyu-red: #ef0f16;
+// $uyu-invert: #008ae7;
+$site-info: #0F86EF;
+
+$jeff-pl-dark: #090909;
+$jeff-pl-dark-soft: #242528;
+$jeff-pl-dark-mute: #34363A;
+
+// $jeff-pl-site-text: rgba(245, 245, 245, 0.85);
+
+$primary: $uyu-red;
+$primary-invert: $jeff-pl-dark-mute;
+$text: $jeff-text;
+$danger: $orange;
+$link: $offwhite;
+$info: $site-info;
+
+$text-strong: $offwhite;
+
+$button-color: $offwhite;
+
+$navbar-background-color: $jeff-pl-dark;
+$scheme-main: $jeff-pl-dark-soft;
+$title-color: $uyu-red;
+
+// 4. Setup your Custom Colors
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+// 5. Add new color variables to the color map.
+@import "../../node_modules/bulma/sass/utilities/derived-variables";
+$addColors: (
+  "twitter":($twitter, $twitter-invert),
+  "linkedin": ($linkedin, $linkedin-invert),
+  "github": ($github, $github-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+@import '../../node_modules/bulma/bulma.scss';
+
+/* Bulma overrides of styling rules */
+
+.navbar-item img {
+    max-height: 2.5rem;
+}
+
+.message.is-info, .message.is-link, .message.is-warning, .message.is-danger {
+    background-color: $jeff-pl-dark-soft;
+}
+
+div.card-image figure.image img {
+    max-height: 80%;
+    width: auto;
+    margin: auto;
+}
+
+.button.is-primary, .button.is-info, .button.is-danger, .button.is-warning, .button.is-link {
+    color: $offwhite;
+}
+
+.menu-label {
+    color: $uyu-red;
+}
+
+.menu-list a:hover {
+    background-color: $jeff-pl-dark-mute;
+}
+
+.is-gallery .column.is-one-quarter figure img {
+    object-fit: cover;
+    mix-blend-mode: overlay;
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-out;
+}
+
+.tile figure {
+    width: 100%;
+}
+
+.is-gallery .column.is-one-quarter {
+    background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.9));
+    opacity: .8;
+}
+
+.is-gallery .column.is-one-quarter:hover {
+    opacity: 1;
+}
+
+.is-gallery .column.is-one-quarter:hover img {
+    mix-blend-mode: unset;
+    transform: scale(1.05);
+}
+
+.modal {
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-out;
+    display: block;
+}
+
+// transition stuff for vue
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-out;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.block-scroll {
+    overflow: hidden;
+}
+
+a:hover {
+    color: hsl(0, 0%, 61%);
+}
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+    background-color: transparent;
+    color: #FAF9F6;
+    text-decoration: underline;
+}
+
+// custom fonts
+
+
+// navbar fixes
+
+.navbar-burger span {
+    height: 2px;
+    left: calc(50% - 12px);
+    width: 24px;
+}
+
+.navbar-item img {
+    max-height: 3rem;
+}
+
+div.card-image figure.image img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+}
+
+.image img.flipped {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.character-crop {
+    overflow: hidden;
+    height: 250px;
+}
+
+body {
+    background-image: url("../assets/metroCitybg1.png");
+    background-size: 100% 100%;
+}
+
+.card {
+    background-color: rgba(0, 0, 20, 0.749);
+}
+
+.text-center {
+    text-align: center;
+}
+
+img.vs-logo {
+    z-index: 2;
+    width: 280px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+html, body {
+    overflow: hidden; /* Hide scrollbars */
+  }
