@@ -256,6 +256,36 @@ const characterSpread = computed(() => {
                     </div>
                 </nav>
                 <br />
+                <nav class="columns">
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Set Wins</strong></p>
+                            <p class="title">TBD</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Set Losses</strong></p>
+                            <p class="title">TBD</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Game Wins</strong></p>
+                            <p class="title">TBD</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Game Losses</strong></p>
+                            <p class="title">TBD</p>
+                        </div>
+                    </div>
+                </nav>
+                <br />
+                <nav class="columns">
+
+                </nav>
                 <time datetime="2016-1-1">Last Updated 6:54 AM - 29 Mar 2024</time>
             </div>
         </div>
