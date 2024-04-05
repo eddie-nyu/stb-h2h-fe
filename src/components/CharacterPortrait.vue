@@ -5,18 +5,18 @@ const characterLibrary = [{
     character_id: 1,
     character_name: "Ryu",
     character_alpha: "RYU",
-    img_url: "https://www.streetfighter.com/6/assets/images/character/ryu/ryu.png",
+    img_url: "https://www.streetfighter.com/6/assets/images/character/select_character1_over.png",
     looks_right: true
 },
 {
     character_id: 2,
     character_name: "Luke",
     character_alpha: "LUKE",
-    img_url: "https://www.streetfighter.com/6/assets/images/character/luke/luke.png",
+    img_url: "https://www.streetfighter.com/6/assets/images/character/select_character2_over.png",
     looks_right: true
 },
 {
-    character_id: 6,
+    character_id: 3,
     character_name: "Kimberly",
     character_alpha: "KIMBERLY",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character6_over.png",
@@ -30,119 +30,119 @@ const characterLibrary = [{
     looks_right: true
 },
 {
-    character_id: 13,
+    character_id: 5,
     character_name: "Manon",
     character_alpha: "MANON",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character13_over.png",
     looks_right: true
 },
 {
-    character_id: 16,
+    character_id: 6,
     character_name: "Zangief",
     character_alpha: "ZANGIEF",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character16_over.png",
     looks_right: true
 },
 {
-    character_id: 15,
+    character_id: 7,
     character_name: "JP",
     character_alpha: "JP",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character15_over.png",
     looks_right: true
 },
 {
-    character_id: 10,
+    character_id: 8,
     character_name: "Dhalsim",
     character_alpha: "DHALSIM",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character10_over.png",
     looks_right: true
 },
 {
-    character_id: 18,
+    character_id: 9,
     character_name: "Cammy",
     character_alpha: "CAMMY",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character18_over.png",
     looks_right: true
 },
 {
-    character_id: 8,
+    character_id: 10,
     character_name: "Ken",
     character_alpha: "KEN",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character8_over.png",
     looks_right: true
 },
 {
-    character_id: 12,
+    character_id: 11,
     character_name: "Dee Jay",
     character_alpha: "DEE JAY",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character12_over.png",
     looks_right: true
 },
 {
-    character_id: 17,
+    character_id: 12,
     character_name: "Lily",
     character_alpha: "LILY",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character17_over.png",
     looks_right: true
 },
 {
-    character_id: 20,
+    character_id: 13,
     character_name: "A.K.I.",
     character_alpha: "A.K.I.",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character20_over.png",
     looks_right: true
 },
 {
-    character_id: 19,
+    character_id: 14,
     character_name: "Rashid",
     character_alpha: "RASHID",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character19_over.png",
     looks_right: true
 },
 {
-    character_id: 9,
+    character_id: 15,
     character_name: "Blanka",
     character_alpha: "BLANKA",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character9_over.png",
     looks_right: true
 },
 {
-    character_id: 7,
+    character_id: 16,
     character_name: "Juri",
     character_alpha: "JURI",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character7_over.png",
     looks_right: true
 },
 {
-    character_id: 14,
+    character_id: 17,
     character_name: "Marisa",
     character_alpha: "MARISA",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character14_over.png",
     looks_right: true
 },
 {
-    character_id: 5,
+    character_id: 18,
     character_name: "Guile",
     character_alpha: "GUILE",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character5_over.png",
     looks_right: true
 },
 {
-    character_id: 21,
+    character_id: 19,
     character_name: "Ed",
     character_alpha: "ED",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character21_over.png",
     looks_right: true
 },
 {
-    character_id: 11,
+    character_id: 20,
     character_name: "Edmond Honda",
     character_alpha: "E. HONDA",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character11_over.png",
     looks_right: true
 },
 {
-    character_id: 3,
+    character_id: 21,
     character_name: "Jamie",
     character_alpha: "JAMIE",
     img_url: "https://www.streetfighter.com/6/assets/images/character/select_character3_over.png",
@@ -190,7 +190,7 @@ const props = defineProps({
         required: true
     },
     muCharacterId: {
-        type: Number,
+        type: String,
         required: true
     }
 });

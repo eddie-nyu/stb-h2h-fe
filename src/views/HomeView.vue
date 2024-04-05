@@ -1,5 +1,28 @@
 <script setup>
+import { computed } from 'vue'
 import CharacterPortrait from '@/components/CharacterPortrait.vue';
+
+import { usePlayerStore } from '@/stores/player';
+
+const playerStore = usePlayerStore();
+
+const team1Selected = computed(() => playerStore.team1 != null);
+
+function onTeam1Change(event) {
+  playerStore.setTeam1(event.target.value);
+}
+
+function onTeam2Change(event) {
+  playerStore.setTeam2(event.target.value);
+}
+
+function onPlayer1Change(event) {
+  playerStore.setPlayer1(event.target.value);
+}
+
+function onPlayer2Change(event) {
+  playerStore.setPlayer2(event.target.value);
+}
 </script>
 
 <template>
@@ -8,46 +31,37 @@ import CharacterPortrait from '@/components/CharacterPortrait.vue';
       <nav class="level">
         <div class="level-left">
           <div class="level-item">
-            <div class="dropdown">
-              <div class="dropdown-trigger">
-                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu5">
-                  <span>Fighter #1</span>
-                  <span class="icon is-small">
-                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                  </span>
-                </button>
-              </div>
-              <div class="dropdown-menu" id="dropdown-menu5" role="menu">
-                <div class="dropdown-content">
-                  <div class="dropdown-item">
-                    <p>The dropdown is <strong>left-aligned</strong> by default.</p>
-                  </div>
-                </div>
-              </div>
+            <div class="select">
+              <select v-model="team1" @change="onTeam1Change($event)">
+                <option value="null"></option>
+                <option v-for="t in playerStore.teams" :key="t.id" :value="t.id">{{ t.name }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="level-item">
+            <div v-if="playerStore.team1IsSet" class="select">
+              <select v-model="selectedPlayer1" @change="onPlayer1Change($event)">
+                <option value="null"></option>
+                <option v-for="p in playerStore.team1Options" :key="p.id" :value="p.id">{{ p.name }}</option>
+              </select>
             </div>
           </div>
         </div>
         <div class="level-right">
           <div class="level-item">
-            <div class="dropdown is-right">
-              <div class="dropdown-trigger">
-                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu6">
-                  <span>Fighter #2</span>
-                  <span class="icon is-small">
-                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                  </span>
-                </button>
-              </div>
-              <div class="dropdown-menu" id="dropdown-menu6" role="menu">
-                <div class="dropdown-content">
-                  <div class="dropdown-item">
-                    <p>
-                      Add the <code>is-right</code> modifier for a
-                      <strong>right-aligned</strong> dropdown.
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="select">
+              <select v-model="team2" @change="onTeam2Change($event)">
+                <option value="null"></option>
+                <option v-for="t in playerStore.teams" :key="t.id" :value="t.id">{{ t.name }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="level-item">
+            <div v-if="playerStore.team2IsSet" class="select">
+              <select v-model="selectedPlayer2" @change="onPlayer2Change($event)">
+                <option value="null"></option>
+                <option v-for="p in playerStore.team2Options" :key="p.id" :value="p.id">{{ p.name }}</option>
+              </select>
             </div>
           </div>
         </div>
@@ -55,13 +69,19 @@ import CharacterPortrait from '@/components/CharacterPortrait.vue';
       <br>
       <img class="vs-logo" src="../assets/Street_Fighter_VS_logo.png" width="280" height="240">
       <div class="columns">
-        <div class="column is-half">
-          <CharacterPortrait :character-id="7" player="Dotmp3" :characters="[7]" league-points="14,376"
-            win-rate="58.33%" mu-win-rate="N/A" mu-character-id="13" />
+        <div class="column is-half" v-if="playerStore.selectedPlayer1 != null && playerStore.selectedPlayer2 != null">
+          <CharacterPortrait :character-id="playerStore.selectedPlayer1Object.main"
+            :player="playerStore.selectedPlayer1Object.name" :characters="[playerStore.selectedPlayer1Object.main]"
+            :league-points="playerStore.player1LP" :master-rate="playerStore.player1MR"
+            :win-rate="playerStore.player1WR" :mu-win-rate="playerStore.player1MUWR"
+            :mu-character-id="playerStore.selectedPlayer2Object.main" />
         </div>
-        <div class="column is-half">
-          <CharacterPortrait flipped :character-id="13" player="Kasual" :characters="[13]" league-points="19,023"
-            win-rate="55.40%" mu-win-rate="46.67%" mu-character-id="7" />
+        <div class="column is-half" v-if="playerStore.selectedPlayer2 != null && playerStore.selectedPlayer1 != null">
+          <CharacterPortrait flipped :character-id="playerStore.selectedPlayer2Object.main"
+            :player="playerStore.selectedPlayer2Object.name" :characters="[playerStore.selectedPlayer2Object.main]"
+            :league-points="playerStore.player2LP" :master-rate="playerStore.player2MR"
+            :win-rate="playerStore.player2WR" :mu-win-rate="playerStore.player2MUWR"
+            :mu-character-id="playerStore.selectedPlayer1Object.main" />
         </div>
       </div>
     </div>
