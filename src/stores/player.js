@@ -119,14 +119,14 @@ export const usePlayerStore = defineStore('player', () => {
     if (team1.value == null) return [];
     return playerList.filter(p => {
       return p.team == team1.value;
-    })
+    }).sort((a, b) => b.division - a.division);
   });
 
   const team2Options = computed(() => {
     if (team2.value == null) return [];
     return playerList.filter(p => {
       return p.team == team2.value;
-    })
+    }).sort((a, b) => b.division - a.division);
   });
 
   const selectedPlayer1 = ref(null);

@@ -5,6 +5,15 @@
     "division": 1,
     "teamName": "Team CuhzLightYear",
     "main": 3,
+    "stbStats": {
+        "setWins": "0",
+        "setLosses": "1",
+        "gameWins": "3",
+        "gameLosses": "5",
+        "perfects": 0,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -24,8 +33,8 @@
         },
         {
             "characterId": 3,
-            "leaguePoints": 196377,
-            "masterRate": 1861,
+            "leaguePoints": 201194,
+            "masterRate": 1901,
             "leagueRank": 36,
             "masterRank": 2306,
             "name": "Kimberly"
@@ -435,7 +444,7 @@
         {
             "characterId": 3,
             "name": "Kimberly",
-            "winRate": "76.08%",
+            "winRate": "59.54%",
             "winRates": [
                 [
                     {
@@ -470,7 +479,7 @@
                     },
                     {
                         "characterId": 7,
-                        "winRate": "81.71%",
+                        "winRate": "61.40%",
                         "name": "JP"
                     },
                     {

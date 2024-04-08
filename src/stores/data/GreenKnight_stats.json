@@ -5,6 +5,15 @@
     "division": 5,
     "teamName": "Team CuhzLightYear",
     "main": 19,
+    "stbStats": {
+        "setWins": "1",
+        "setLosses": "0",
+        "gameWins": "3",
+        "gameLosses": "1",
+        "perfects": 0,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -2419,7 +2428,7 @@
         {
             "characterId": 19,
             "name": "Ed",
-            "winRate": "38.20%",
+            "winRate": "55.29%",
             "winRates": [
                 [
                     {
@@ -2514,7 +2523,7 @@
                     },
                     {
                         "characterId": 19,
-                        "winRate": "43.81%",
+                        "winRate": "53.57%",
                         "name": "Ed"
                     },
                     {

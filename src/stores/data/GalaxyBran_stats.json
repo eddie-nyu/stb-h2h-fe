@@ -5,6 +5,15 @@
     "division": 2,
     "teamName": "Team CuhzLightYear",
     "main": 15,
+    "stbStats": {
+        "setWins": "1",
+        "setLosses": "0",
+        "gameWins": "3",
+        "gameLosses": "1",
+        "perfects": 1,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -120,8 +129,8 @@
         },
         {
             "characterId": 15,
-            "leaguePoints": 78118,
-            "masterRate": 1601,
+            "leaguePoints": 82923,
+            "masterRate": 1562,
             "leagueRank": 36,
             "masterRank": 21815,
             "name": "Blanka"
@@ -1923,7 +1932,7 @@
         {
             "characterId": 15,
             "name": "Blanka",
-            "winRate": "54.30%",
+            "winRate": "50.82%",
             "winRates": [
                 [
                     {
@@ -2018,7 +2027,7 @@
                     },
                     {
                         "characterId": 19,
-                        "winRate": "57.58%",
+                        "winRate": "64.00%",
                         "name": "Ed"
                     },
                     {

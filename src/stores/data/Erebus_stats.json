@@ -5,6 +5,15 @@
     "division": 2,
     "teamName": "Team Marv_",
     "main": 7,
+    "stbStats": {
+        "setWins": "0",
+        "setLosses": "1",
+        "gameWins": "1",
+        "gameLosses": "3",
+        "perfects": 1,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,

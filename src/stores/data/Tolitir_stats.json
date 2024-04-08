@@ -5,6 +5,15 @@
     "teamName": "Team CuhzLightYear",
     "main": 5,
     "division": 4,
+    "stbStats": {
+        "setWins": "0",
+        "setLosses": "1",
+        "gameWins": "1",
+        "gameLosses": "3",
+        "perfects": 1,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -40,7 +49,7 @@
         },
         {
             "characterId": 5,
-            "leaguePoints": 19004,
+            "leaguePoints": 19175,
             "masterRate": 0,
             "leagueRank": 31,
             "masterRank": 0,
@@ -683,7 +692,7 @@
         {
             "characterId": 5,
             "name": "Manon",
-            "winRate": "34.54%",
+            "winRate": "46.93%",
             "winRates": [
                 [
                     {
@@ -718,7 +727,7 @@
                     },
                     {
                         "characterId": 7,
-                        "winRate": "25.00%",
+                        "winRate": "40.00%",
                         "name": "JP"
                     },
                     {

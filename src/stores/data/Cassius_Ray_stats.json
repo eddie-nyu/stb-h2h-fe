@@ -3,6 +3,17 @@
     "name": "Cassius_Ray",
     "team": 1,
     "teamName": "Team GranTodakai",
+    "division": 2,
+    "main": 19,
+    "stbStats": {
+        "setWins": "1",
+        "setLosses": "0",
+        "gameWins": "3",
+        "gameLosses": "2",
+        "perfects": 0,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -150,8 +161,8 @@
         },
         {
             "characterId": 19,
-            "leaguePoints": 106935,
-            "masterRate": 1777,
+            "leaguePoints": 111907,
+            "masterRate": 1735,
             "leagueRank": 36,
             "masterRank": 4980,
             "name": "Ed"
@@ -2417,7 +2428,7 @@
         {
             "characterId": 19,
             "name": "Ed",
-            "winRate": "57.05%",
+            "winRate": "51.41%",
             "winRates": [
                 [
                     {
@@ -2492,7 +2503,7 @@
                     },
                     {
                         "characterId": 15,
-                        "winRate": "55.10%",
+                        "winRate": "47.62%",
                         "name": "Blanka"
                     },
                     {

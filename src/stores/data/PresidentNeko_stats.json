@@ -3,6 +3,8 @@
     "name": "PresidentNeko",
     "team": 4,
     "teamName": "Team DoctaAfrikan",
+    "main": 13,
+    "division": 2,
     "characterLeagueInfo": [
         {
             "characterId": 1,

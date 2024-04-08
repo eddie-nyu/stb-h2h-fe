@@ -74,14 +74,14 @@ function onPlayer2Change(event) {
             :player="playerStore.selectedPlayer1Object.name" :characters="[playerStore.selectedPlayer1Object.main]"
             :league-points="playerStore.player1LP" :master-rate="playerStore.player1MR"
             :win-rate="playerStore.player1WR" :mu-win-rate="playerStore.player1MUWR"
-            :mu-character-id="playerStore.selectedPlayer2Object.main" />
+            :mu-character-id="playerStore.selectedPlayer2Object.main" :player-obj="playerStore.selectedPlayer1Object" />
         </div>
         <div class="column is-half" v-if="playerStore.selectedPlayer2 != null && playerStore.selectedPlayer1 != null">
           <CharacterPortrait flipped :character-id="playerStore.selectedPlayer2Object.main"
             :player="playerStore.selectedPlayer2Object.name" :characters="[playerStore.selectedPlayer2Object.main]"
             :league-points="playerStore.player2LP" :master-rate="playerStore.player2MR"
             :win-rate="playerStore.player2WR" :mu-win-rate="playerStore.player2MUWR"
-            :mu-character-id="playerStore.selectedPlayer1Object.main" />
+            :mu-character-id="playerStore.selectedPlayer1Object.main" :player-obj="playerStore.selectedPlayer2Object" />
         </div>
       </div>
     </div>

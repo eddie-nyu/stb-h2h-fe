@@ -192,6 +192,9 @@ const props = defineProps({
     muCharacterId: {
         type: String,
         required: true
+    },
+    playerObj: {
+        type: Object
     }
 });
 
@@ -256,7 +259,33 @@ const characterSpread = computed(() => {
                     </div>
                 </nav>
                 <br />
-                <nav class="columns">
+                <nav class="columns" v-if="playerObj != null && playerObj.stbStats != null">
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Set Wins</strong></p>
+                            <p class="title">{{ playerObj.stbStats.setWins }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Set Losses</strong></p>
+                            <p class="title">{{ playerObj.stbStats.setLosses }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Game Wins</strong></p>
+                            <p class="title">{{ playerObj.stbStats.gameWins }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STL Game Losses</strong></p>
+                            <p class="title">{{ playerObj.stbStats.gameLosses }}</p>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="columns" v-else>
                     <div class="column is-one-quarter has-text-centered">
                         <div>
                             <p class="heading is-size-4"><strong>STL Set Wins</strong></p>
@@ -283,9 +312,27 @@ const characterSpread = computed(() => {
                     </div>
                 </nav>
                 <br />
-                <nav class="columns">
-
+                <nav v-if="playerObj != null && playerObj.stbStats != null" class="columns">
+                    <div class="column is-one-third has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>Perfects</strong></p>
+                            <p class="title">{{ playerObj.stbStats.perfects }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>Charge Wins</strong></p>
+                            <p class="title">{{ playerObj.stbStats.chargeWins }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>Charge Denials</strong></p>
+                            <p class="title">{{ playerObj.stbStats.chargeDenials }}</p>
+                        </div>
+                    </div>
                 </nav>
+                <br v-if="playerObj != null && playerObj.stbStats != null" />
                 <time datetime="2016-1-1">Last Updated 6:54 AM - 29 Mar 2024</time>
             </div>
         </div>

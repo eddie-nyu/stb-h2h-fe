@@ -5,6 +5,15 @@
     "division": 3,
     "teamName": "Team CuhzLightYear",
     "main": 6,
+    "stbStats": {
+        "setWins": "0",
+        "setLosses": "2",
+        "gameWins": "6",
+        "gameLosses": "7",
+        "perfects": 0,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -48,7 +57,7 @@
         },
         {
             "characterId": 6,
-            "leaguePoints": 22815,
+            "leaguePoints": 23330,
             "masterRate": 0,
             "leagueRank": 34,
             "masterRank": 0,
@@ -807,7 +816,7 @@
         {
             "characterId": 6,
             "name": "Zangief",
-            "winRate": "43.32%",
+            "winRate": "47.16%",
             "winRates": [
                 [
                     {
@@ -897,7 +906,7 @@
                     },
                     {
                         "characterId": 18,
-                        "winRate": "57.14%",
+                        "winRate": "54.55%",
                         "name": "Guile"
                     },
                     {
