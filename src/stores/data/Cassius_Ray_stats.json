@@ -6,10 +6,10 @@
     "division": 2,
     "main": 19,
     "stbStats": {
-        "setWins": "1",
-        "setLosses": "0",
-        "gameWins": "3",
-        "gameLosses": "2",
+        "setWins": "2",
+        "setLosses": "1",
+        "gameWins": "8",
+        "gameLosses": "6",
         "perfects": 0,
         "chargeWins": 0,
         "chargeDenials": 0

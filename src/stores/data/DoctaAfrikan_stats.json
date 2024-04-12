@@ -5,6 +5,15 @@
     "teamName": "Team DoctaAfrikan",
     "main": 17,
     "division": 1,
+    "stbStats": {
+        "setWins": "0",
+        "setLosses": "1",
+        "gameWins": "4",
+        "gameLosses": "5",
+        "perfects": 0,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,
@@ -136,8 +145,8 @@
         },
         {
             "characterId": 17,
-            "leaguePoints": -1,
-            "masterRate": 0,
+            "leaguePoints": 111763,
+            "masterRate": 1775,
             "leagueRank": 39,
             "masterRank": 0,
             "name": "Marisa"
@@ -2171,7 +2180,7 @@
         {
             "characterId": 17,
             "name": "Marisa",
-            "winRate": "79.27%",
+            "winRate": "84.21%",
             "winRates": [
                 [
                     {
@@ -2221,7 +2230,7 @@
                     },
                     {
                         "characterId": 10,
-                        "winRate": "N/A",
+                        "winRate": "100%",
                         "name": "Ken"
                     },
                     {

@@ -5,6 +5,15 @@
     "teamName": "Team DoctaAfrikan",
     "main": 13,
     "division": 2,
+    "stbStats": {
+        "setWins": "0",
+        "setLosses": "1",
+        "gameWins": "2",
+        "gameLosses": "3",
+        "perfects": 0,
+        "chargeWins": 0,
+        "chargeDenials": 0
+    },
     "characterLeagueInfo": [
         {
             "characterId": 1,

@@ -137,7 +137,7 @@
         },
         {
             "characterId": 16,
-            "leaguePoints": -1,
+            "leaguePoints": 22915,
             "masterRate": 0,
             "leagueRank": 39,
             "masterRank": 0,
@@ -2056,7 +2056,7 @@
         {
             "characterId": 16,
             "name": "Juri",
-            "winRate": "37.36%",
+            "winRate": "55.10%",
             "winRates": [
                 [
                     {
@@ -2106,7 +2106,7 @@
                     },
                     {
                         "characterId": 10,
-                        "winRate": "N/A",
+                        "winRate": "54.55%",
                         "name": "Ken"
                     },
                     {
