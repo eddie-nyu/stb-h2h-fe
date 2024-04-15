@@ -940,7 +940,7 @@
         {
             "characterId": 7,
             "name": "JP",
-            "winRate": "66.24%",
+            "winRate": "57.30%",
             "winRates": [
                 [
                     {
@@ -1035,7 +1035,7 @@
                     },
                     {
                         "characterId": 19,
-                        "winRate": "92.86%",
+                        "winRate": "81.82%",
                         "name": "Ed"
                     },
                     {

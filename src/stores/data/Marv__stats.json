@@ -89,8 +89,8 @@
         },
         {
             "characterId": 10,
-            "leaguePoints": 160798,
-            "masterRate": 1810,
+            "leaguePoints": 165603,
+            "masterRate": 1974,
             "leagueRank": 36,
             "masterRank": 3580,
             "name": "Ken"
@@ -1312,7 +1312,7 @@
         {
             "characterId": 10,
             "name": "Ken",
-            "winRate": "67.35%",
+            "winRate": "68.14%",
             "winRates": [
                 [
                     {
@@ -1347,7 +1347,7 @@
                     },
                     {
                         "characterId": 7,
-                        "winRate": "87.50%",
+                        "winRate": "78.95%",
                         "name": "JP"
                     },
                     {

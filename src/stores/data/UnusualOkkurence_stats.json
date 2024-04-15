@@ -2056,7 +2056,7 @@
         {
             "characterId": 16,
             "name": "Juri",
-            "winRate": "50.47%",
+            "winRate": "47.99%",
             "winRates": [
                 [
                     {
@@ -2091,7 +2091,7 @@
                     },
                     {
                         "characterId": 7,
-                        "winRate": "N/A",
+                        "winRate": "100%",
                         "name": "JP"
                     },
                     {

@@ -2304,7 +2304,7 @@
         {
             "characterId": 18,
             "name": "Guile",
-            "winRate": "50.36%",
+            "winRate": "53.22%",
             "winRates": [
                 [
                     {
@@ -2354,7 +2354,7 @@
                     },
                     {
                         "characterId": 10,
-                        "winRate": "33.33%",
+                        "winRate": "52.94%",
                         "name": "Ken"
                     },
                     {
