@@ -6,10 +6,10 @@
     "teamName": "Team Marv_",
     "main": 5,
     "stbStats": {
-        "setWins": "0",
+        "setWins": "1",
         "setLosses": "1",
-        "gameWins": "1",
-        "gameLosses": "3",
+        "gameWins": "4",
+        "gameLosses": "4",
         "perfects": 0,
         "chargeWins": 0,
         "chargeDenials": 0
