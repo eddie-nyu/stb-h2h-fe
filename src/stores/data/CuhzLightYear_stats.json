@@ -6,10 +6,10 @@
     "teamName": "Team CuhzLightYear",
     "main": 3,
     "stbStats": {
-        "setWins": "0",
+        "setWins": "1",
         "setLosses": "1",
-        "gameWins": "3",
-        "gameLosses": "5",
+        "gameWins": "8",
+        "gameLosses": "9",
         "perfects": 2,
         "chargeWins": 0,
         "chargeDenials": 0
