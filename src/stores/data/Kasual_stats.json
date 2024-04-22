@@ -6,9 +6,9 @@
     "teamName": "Team Marv_",
     "main": 5,
     "stbStats": {
-        "setWins": "1",
+        "setWins": "2",
         "setLosses": "1",
-        "gameWins": "4",
+        "gameWins": "7",
         "gameLosses": "4",
         "perfects": 0,
         "chargeWins": 0,
@@ -692,12 +692,12 @@
         {
             "characterId": 5,
             "name": "Manon",
-            "winRate": "56.07%",
+            "winRate": "55.40%",
             "winRates": [
                 [
                     {
                         "characterId": 1,
-                        "winRate": "53.23%",
+                        "winRate": "52.94%",
                         "name": "Ryu"
                     },
                     {

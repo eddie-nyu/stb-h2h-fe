@@ -7,9 +7,9 @@
     "teamName": "Team GranTodakai",
     "stbStats": {
         "setWins": "3",
-        "setLosses": "0",
-        "gameWins": "7",
-        "gameLosses": "2",
+        "setLosses": "1",
+        "gameWins": "8",
+        "gameLosses": "5",
         "perfects": 1,
         "chargeWins": 0,
         "chargeDenials": 0
@@ -65,7 +65,7 @@
         },
         {
             "characterId": 7,
-            "leaguePoints": 20514,
+            "leaguePoints": 21292,
             "masterRate": 0,
             "leagueRank": 32,
             "masterRank": 0,
@@ -940,7 +940,7 @@
         {
             "characterId": 7,
             "name": "JP",
-            "winRate": "53.45%",
+            "winRate": "52.94%",
             "winRates": [
                 [
                     {
@@ -990,7 +990,7 @@
                     },
                     {
                         "characterId": 10,
-                        "winRate": "40.00%",
+                        "winRate": "57.14%",
                         "name": "Ken"
                     },
                     {
@@ -1020,7 +1020,7 @@
                     },
                     {
                         "characterId": 16,
-                        "winRate": "60.00%",
+                        "winRate": "38.89%",
                         "name": "Juri"
                     },
                     {

@@ -6,9 +6,9 @@
     "division": 2,
     "main": 19,
     "stbStats": {
-        "setWins": "2",
+        "setWins": "3",
         "setLosses": "1",
-        "gameWins": "10",
+        "gameWins": "13",
         "gameLosses": "7",
         "perfects": 1,
         "chargeWins": 0,
@@ -162,7 +162,7 @@
         {
             "characterId": 19,
             "leaguePoints": 111907,
-            "masterRate": 1735,
+            "masterRate": 1633,
             "leagueRank": 36,
             "masterRank": 4980,
             "name": "Ed"
@@ -2428,7 +2428,7 @@
         {
             "characterId": 19,
             "name": "Ed",
-            "winRate": "51.41%",
+            "winRate": "50.90%",
             "winRates": [
                 [
                     {
@@ -2463,7 +2463,7 @@
                     },
                     {
                         "characterId": 7,
-                        "winRate": "63.03%",
+                        "winRate": "48.48%",
                         "name": "JP"
                     },
                     {

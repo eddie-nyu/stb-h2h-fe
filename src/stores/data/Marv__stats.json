@@ -6,10 +6,10 @@
     "teamName": "Team Marv_",
     "main": 10,
     "stbStats": {
-        "setWins": "1",
-        "setLosses": "1",
-        "gameWins": "9",
-        "gameLosses": "8",
+        "setWins": "2",
+        "setLosses": "2",
+        "gameWins": "18",
+        "gameLosses": "18",
         "perfects": 3,
         "chargeWins": 0,
         "chargeDenials": 0
@@ -90,7 +90,7 @@
         {
             "characterId": 10,
             "leaguePoints": 165603,
-            "masterRate": 1974,
+            "masterRate": 1979,
             "leagueRank": 36,
             "masterRank": 3580,
             "name": "Ken"
@@ -1312,7 +1312,7 @@
         {
             "characterId": 10,
             "name": "Ken",
-            "winRate": "68.14%",
+            "winRate": "66.40%",
             "winRates": [
                 [
                     {

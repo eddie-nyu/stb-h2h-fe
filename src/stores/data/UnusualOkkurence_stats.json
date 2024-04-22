@@ -6,10 +6,10 @@
     "teamName": "Team Marv_",
     "main": 16,
     "stbStats": {
-        "setWins": "2",
+        "setWins": "3",
         "setLosses": "0",
-        "gameWins": "6",
-        "gameLosses": "1",
+        "gameWins": "9",
+        "gameLosses": "2",
         "perfects": 0,
         "chargeWins": 0,
         "chargeDenials": 0
@@ -137,7 +137,7 @@
         },
         {
             "characterId": 16,
-            "leaguePoints": 20413,
+            "leaguePoints": 20774,
             "masterRate": 0,
             "leagueRank": 32,
             "masterRank": 0,
@@ -2056,7 +2056,7 @@
         {
             "characterId": 16,
             "name": "Juri",
-            "winRate": "47.99%",
+            "winRate": "48.65%",
             "winRates": [
                 [
                     {

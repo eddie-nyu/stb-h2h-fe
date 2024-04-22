@@ -7,9 +7,9 @@
     "main": 10,
     "stbStats": {
         "setWins": "4",
-        "setLosses": "0",
+        "setLosses": "1",
         "gameWins": "11",
-        "gameLosses": "5",
+        "gameLosses": "8",
         "perfects": 2,
         "chargeWins": 0,
         "chargeDenials": 2
@@ -1312,7 +1312,7 @@
         {
             "characterId": 10,
             "name": "Ken",
-            "winRate": "57.49%",
+            "winRate": "73.08%",
             "winRates": [
                 [
                     {

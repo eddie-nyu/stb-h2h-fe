@@ -6,10 +6,10 @@
     "division": 1,
     "main": 7,
     "stbStats": {
-        "setWins": "1",
-        "setLosses": "0",
-        "gameWins": "5",
-        "gameLosses": "4",
+        "setWins": "2",
+        "setLosses": "1",
+        "gameWins": "15",
+        "gameLosses": "13",
         "perfects": 1,
         "chargeWins": 0,
         "chargeDenials": 0
@@ -66,7 +66,7 @@
         {
             "characterId": 7,
             "leaguePoints": 199242,
-            "masterRate": 1980,
+            "masterRate": 2004,
             "leagueRank": 36,
             "masterRank": 861,
             "name": "JP"
@@ -940,7 +940,7 @@
         {
             "characterId": 7,
             "name": "JP",
-            "winRate": "76.39%",
+            "winRate": "76.29%",
             "winRates": [
                 [
                     {
@@ -950,7 +950,7 @@
                     },
                     {
                         "characterId": 2,
-                        "winRate": "74.47%",
+                        "winRate": "75.00%",
                         "name": "Luke"
                     },
                     {
@@ -990,7 +990,7 @@
                     },
                     {
                         "characterId": 10,
-                        "winRate": "76.92%",
+                        "winRate": "77.78%",
                         "name": "Ken"
                     },
                     {

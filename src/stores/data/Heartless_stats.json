@@ -153,8 +153,8 @@
         },
         {
             "characterId": 18,
-            "leaguePoints": 23936,
-            "masterRate": 0,
+            "leaguePoints": 30998,
+            "masterRate": 1357,
             "leagueRank": 34,
             "masterRank": 0,
             "name": "Guile"
@@ -2304,7 +2304,7 @@
         {
             "characterId": 18,
             "name": "Guile",
-            "winRate": "53.22%",
+            "winRate": "49.85%",
             "winRates": [
                 [
                     {
@@ -2354,7 +2354,7 @@
                     },
                     {
                         "characterId": 10,
-                        "winRate": "52.94%",
+                        "winRate": "55.17%",
                         "name": "Ken"
                     },
                     {

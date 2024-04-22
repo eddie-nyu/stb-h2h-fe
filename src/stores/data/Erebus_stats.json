@@ -7,9 +7,9 @@
     "main": 7,
     "stbStats": {
         "setWins": "1",
-        "setLosses": "1",
+        "setLosses": "2",
         "gameWins": "4",
-        "gameLosses": "3",
+        "gameLosses": "6",
         "perfects": 2,
         "chargeWins": 0,
         "chargeDenials": 0
