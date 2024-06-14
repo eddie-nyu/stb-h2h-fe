@@ -1,27 +1,33 @@
 import { ref, reactive, computed } from 'vue'
 import { defineStore } from 'pinia'
-import Arctic_ from './data/Arctic__stats.json';
-import Cassius_Ray from './data/Cassius_Ray_stats.json';
-import CuhzLightYear from './data/CuhzLightYear_stats.json';
-import DoctaAfrikan from './data/DoctaAfrikan_stats.json';
-import Dotmp3 from './data/Dotmp3_stats.json';
+// import Arctic_ from './data/Arctic__stats.json';
+// import Cassius_Ray from './data/Cassius_Ray_stats.json';
+// import CuhzLightYear from './data/CuhzLightYear_stats.json';
+// import DoctaAfrikan from './data/DoctaAfrikan_stats.json';
+// import Dotmp3 from './data/Dotmp3_stats.json';
 import Erebus from './data/Erebus_stats.json';
 import GalaxyBran from './data/GalaxyBran_stats.json';
-import GranTodakai from './data/GranTodakai_stats.json';
-import GreenKnight from './data/GreenKnight_stats.json';
-import Heartless from './data/Heartless_stats.json';
-import Hugo_claps from './data/Hugo_claps_stats.json';
+// import GranTodakai from './data/GranTodakai_stats.json';
+// import GreenKnight from './data/GreenKnight_stats.json';
+// import Heartless from './data/Heartless_stats.json';
+// import Hugo_claps from './data/Hugo_claps_stats.json';
 import Jeyy from './data/Jeyy_stats.json';
-import Jumbuno from './data/Jumbuno_stats.json';
-import Kasual from './data/Kasual_stats.json';
-import Marv_ from './data/Marv__stats.json';
-import Ninun from './data/Ninun_stats.json';
-import PresidentNeko from './data/PresidentNeko_stats.json';
+// import Jumbuno from './data/Jumbuno_stats.json';
+// import Kasual from './data/Kasual_stats.json';
+// import Marv_ from './data/Marv__stats.json';
+// import Ninun from './data/Ninun_stats.json';
+// import PresidentNeko from './data/PresidentNeko_stats.json';
 import RyukenBlue from './data/RyukenBlue_stats.json';
-import Tolitir from './data/Tolitir_stats.json';
-import UnusualOkkurence from './data/UnusualOkkurence_stats.json';
+// import Tolitir from './data/Tolitir_stats.json';
+// import UnusualOkkurence from './data/UnusualOkkurence_stats.json';
+import FallenConscript from './data/FallenConscript_stats.json';
+import GMGNARCOS from './data/GMGNARCOS_stats.json';
+import MrNoodles from './data/MrNoodles_stats.json';
+import PinkMegamanRyu from './data/PinkMegamanRyu_stats.json';
+import ShadowAce from './data/ShadowAce_stats.json';
+import Splurge from './data/Splurge_stats.json';
 
-const playerList = [Arctic_, Cassius_Ray, CuhzLightYear, DoctaAfrikan, Dotmp3, Erebus, GalaxyBran, GranTodakai, GreenKnight, Heartless, Hugo_claps, Jeyy, Jumbuno, Kasual, Marv_, Ninun, PresidentNeko, RyukenBlue, Tolitir, UnusualOkkurence];
+const playerList = [Erebus, GalaxyBran, Jeyy, RyukenBlue, FallenConscript, GMGNARCOS, MrNoodles, PinkMegamanRyu, ShadowAce, Splurge];
 
 console.log(playerList);
 
@@ -73,21 +79,29 @@ export const usePlayerStore = defineStore('player', () => {
   const players = reactive(playerList);
 
   const teams = reactive([
+    // {
+    //   id: 1,
+    //   name: 'Team GranTodakai'
+    // },
+    // {
+    //   id: 2,
+    //   name: 'Team Marv_'
+    // },
+    // {
+    //   id: 3,
+    //   name: 'Team CuhzLightYear'
+    // },
+    // {
+    //   id: 4,
+    //   name: 'Team DoctaAfrikan'
+    // },
     {
-      id: 1,
-      name: 'Team GranTodakai'
+      id: 100,
+      name: 'Team Galaxy Bran'
     },
     {
-      id: 2,
-      name: 'Team Marv_'
-    },
-    {
-      id: 3,
-      name: 'Team CuhzLightYear'
-    },
-    {
-      id: 4,
-      name: 'Team DoctaAfrikan'
+      id: 101,
+      name: 'Team Erebus'
     }
   ]);
 

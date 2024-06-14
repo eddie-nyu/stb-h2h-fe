@@ -1,18 +1,15 @@
 {
     "id": "3055284083",
     "name": "Jeyy",
-    "team": 1,
-    "division": 4,
+    "team": 100,
+    "teamName": "Team Galaxy Bran",
     "main": 7,
-    "teamName": "Team GranTodakai",
+    "division": 4,
     "stbStats": {
-        "setWins": "3",
-        "setLosses": "1",
-        "gameWins": "8",
-        "gameLosses": "5",
-        "perfects": 1,
-        "chargeWins": 0,
-        "chargeDenials": 0
+        "setWins": 5,
+        "setLosses": 1,
+        "gameWins": 21,
+        "gameLosses": 6
     },
     "characterLeagueInfo": [
         {
@@ -65,9 +62,9 @@
         },
         {
             "characterId": 7,
-            "leaguePoints": 21292,
+            "leaguePoints": 23801,
             "masterRate": 0,
-            "leagueRank": 32,
+            "leagueRank": 35,
             "masterRank": 0,
             "name": "JP"
         },
@@ -182,6 +179,14 @@
             "leagueRank": 39,
             "masterRank": 0,
             "name": "Jamie"
+        },
+        {
+            "characterId": 22,
+            "leaguePoints": -1,
+            "masterRate": 0,
+            "leagueRank": 39,
+            "masterRank": 0,
+            "name": "Akuma"
         },
         {
             "characterId": 254,
@@ -303,6 +308,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -429,6 +439,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -551,6 +566,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -677,6 +697,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -799,6 +824,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -925,6 +955,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -940,17 +975,17 @@
         {
             "characterId": 7,
             "name": "JP",
-            "winRate": "52.94%",
+            "winRate": "45.45%",
             "winRates": [
                 [
                     {
                         "characterId": 1,
-                        "winRate": "53.85%",
+                        "winRate": "66.67%",
                         "name": "Ryu"
                     },
                     {
                         "characterId": 2,
-                        "winRate": "23.81%",
+                        "winRate": "33.33%",
                         "name": "Luke"
                     },
                     {
@@ -960,52 +995,52 @@
                     },
                     {
                         "characterId": 4,
-                        "winRate": "57.14%",
+                        "winRate": "66.67%",
                         "name": "Chun-Li"
                     },
                     {
                         "characterId": 5,
-                        "winRate": "37.50%",
+                        "winRate": "33.33%",
                         "name": "Manon"
                     },
                     {
                         "characterId": 6,
-                        "winRate": "57.78%",
+                        "winRate": "61.54%",
                         "name": "Zangief"
                     },
                     {
                         "characterId": 7,
-                        "winRate": "64.29%",
+                        "winRate": "28.57%",
                         "name": "JP"
                     },
                     {
                         "characterId": 8,
-                        "winRate": "100.00%",
+                        "winRate": "40.00%",
                         "name": "Dhalsim"
                     },
                     {
                         "characterId": 9,
-                        "winRate": "70.00%",
+                        "winRate": "92.00%",
                         "name": "Cammy"
                     },
                     {
                         "characterId": 10,
-                        "winRate": "57.14%",
+                        "winRate": "57.89%",
                         "name": "Ken"
                     },
                     {
                         "characterId": 11,
-                        "winRate": "75.00%",
+                        "winRate": "50.00%",
                         "name": "Dee Jay"
                     },
                     {
                         "characterId": 12,
-                        "winRate": "25.00%",
+                        "winRate": "50.00%",
                         "name": "Lily"
                     },
                     {
                         "characterId": 13,
-                        "winRate": "N/A",
+                        "winRate": "50.00%",
                         "name": "A.K.I."
                     },
                     {
@@ -1015,47 +1050,52 @@
                     },
                     {
                         "characterId": 15,
-                        "winRate": "18.99%",
+                        "winRate": "25.58%",
                         "name": "Blanka"
                     },
                     {
                         "characterId": 16,
-                        "winRate": "38.89%",
+                        "winRate": "46.67%",
                         "name": "Juri"
                     },
                     {
                         "characterId": 17,
-                        "winRate": "63.64%",
+                        "winRate": "52.94%",
                         "name": "Marisa"
                     },
                     {
                         "characterId": 18,
-                        "winRate": "44.44%",
+                        "winRate": "100.00%",
                         "name": "Guile"
                     },
                     {
                         "characterId": 19,
-                        "winRate": "30.00%",
+                        "winRate": "35.29%",
                         "name": "Ed"
                     },
                     {
                         "characterId": 20,
-                        "winRate": "25.00%",
+                        "winRate": "N/A",
                         "name": "Edmond Honda"
                     },
                     {
                         "characterId": 21,
-                        "winRate": "61.11%",
+                        "winRate": "50.00%",
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "33.93%",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
-                        "winRate": "100.00%",
+                        "winRate": "50.00%",
                         "name": "Random"
                     },
                     {
                         "characterId": 253,
-                        "winRate": "43.64%",
+                        "winRate": "45.45%",
                         "name": "Any"
                     }
                 ]
@@ -1171,6 +1211,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -1297,6 +1342,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -1419,6 +1469,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -1545,6 +1600,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -1667,6 +1727,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -1793,6 +1858,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -1915,6 +1985,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -2041,6 +2116,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -2163,6 +2243,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -2289,6 +2374,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -2411,6 +2501,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -2537,6 +2632,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -2659,6 +2759,11 @@
                         "characterId": 21,
                         "winRate": "N/A",
                         "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
                     },
                     {
                         "characterId": 254,
@@ -2785,6 +2890,140 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
+                        "characterId": 254,
+                        "winRate": "N/A",
+                        "name": "Random"
+                    },
+                    {
+                        "characterId": 253,
+                        "winRate": "N/A",
+                        "name": "Any"
+                    }
+                ]
+            ]
+        },
+        {
+            "characterId": 22,
+            "name": "Akuma",
+            "winRate": "N/A",
+            "winRates": [
+                [
+                    {
+                        "characterId": 1,
+                        "winRate": "N/A",
+                        "name": "Ryu"
+                    },
+                    {
+                        "characterId": 2,
+                        "winRate": "N/A",
+                        "name": "Luke"
+                    },
+                    {
+                        "characterId": 3,
+                        "winRate": "N/A",
+                        "name": "Kimberly"
+                    },
+                    {
+                        "characterId": 4,
+                        "winRate": "N/A",
+                        "name": "Chun-Li"
+                    },
+                    {
+                        "characterId": 5,
+                        "winRate": "N/A",
+                        "name": "Manon"
+                    },
+                    {
+                        "characterId": 6,
+                        "winRate": "N/A",
+                        "name": "Zangief"
+                    },
+                    {
+                        "characterId": 7,
+                        "winRate": "N/A",
+                        "name": "JP"
+                    },
+                    {
+                        "characterId": 8,
+                        "winRate": "N/A",
+                        "name": "Dhalsim"
+                    },
+                    {
+                        "characterId": 9,
+                        "winRate": "N/A",
+                        "name": "Cammy"
+                    },
+                    {
+                        "characterId": 10,
+                        "winRate": "N/A",
+                        "name": "Ken"
+                    },
+                    {
+                        "characterId": 11,
+                        "winRate": "N/A",
+                        "name": "Dee Jay"
+                    },
+                    {
+                        "characterId": 12,
+                        "winRate": "N/A",
+                        "name": "Lily"
+                    },
+                    {
+                        "characterId": 13,
+                        "winRate": "N/A",
+                        "name": "A.K.I."
+                    },
+                    {
+                        "characterId": 14,
+                        "winRate": "N/A",
+                        "name": "Rashid"
+                    },
+                    {
+                        "characterId": 15,
+                        "winRate": "N/A",
+                        "name": "Blanka"
+                    },
+                    {
+                        "characterId": 16,
+                        "winRate": "N/A",
+                        "name": "Juri"
+                    },
+                    {
+                        "characterId": 17,
+                        "winRate": "N/A",
+                        "name": "Marisa"
+                    },
+                    {
+                        "characterId": 18,
+                        "winRate": "N/A",
+                        "name": "Guile"
+                    },
+                    {
+                        "characterId": 19,
+                        "winRate": "N/A",
+                        "name": "Ed"
+                    },
+                    {
+                        "characterId": 20,
+                        "winRate": "N/A",
+                        "name": "Edmond Honda"
+                    },
+                    {
+                        "characterId": 21,
+                        "winRate": "N/A",
+                        "name": "Jamie"
+                    },
+                    {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -2909,6 +3148,11 @@
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "N/A",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
                         "winRate": "N/A",
                         "name": "Random"
@@ -2924,17 +3168,17 @@
         {
             "characterId": 253,
             "name": "Any",
-            "winRate": "43.64%",
+            "winRate": "45.45%",
             "winRates": [
                 [
                     {
                         "characterId": 1,
-                        "winRate": "53.85%",
+                        "winRate": "66.67%",
                         "name": "Ryu"
                     },
                     {
                         "characterId": 2,
-                        "winRate": "23.81%",
+                        "winRate": "33.33%",
                         "name": "Luke"
                     },
                     {
@@ -2944,52 +3188,52 @@
                     },
                     {
                         "characterId": 4,
-                        "winRate": "57.14%",
+                        "winRate": "66.67%",
                         "name": "Chun-Li"
                     },
                     {
                         "characterId": 5,
-                        "winRate": "66.67%",
+                        "winRate": "33.33%",
                         "name": "Manon"
                     },
                     {
                         "characterId": 6,
-                        "winRate": "57.78%",
+                        "winRate": "61.54%",
                         "name": "Zangief"
                     },
                     {
                         "characterId": 7,
-                        "winRate": "64.29%",
+                        "winRate": "28.57%",
                         "name": "JP"
                     },
                     {
                         "characterId": 8,
-                        "winRate": "100.00%",
+                        "winRate": "40.00%",
                         "name": "Dhalsim"
                     },
                     {
                         "characterId": 9,
-                        "winRate": "70.00%",
+                        "winRate": "92.00%",
                         "name": "Cammy"
                     },
                     {
                         "characterId": 10,
-                        "winRate": "40.00%",
+                        "winRate": "57.89%",
                         "name": "Ken"
                     },
                     {
                         "characterId": 11,
-                        "winRate": "75.00%",
+                        "winRate": "50.00%",
                         "name": "Dee Jay"
                     },
                     {
                         "characterId": 12,
-                        "winRate": "25.00%",
+                        "winRate": "50.00%",
                         "name": "Lily"
                     },
                     {
                         "characterId": 13,
-                        "winRate": "N/A",
+                        "winRate": "50.00%",
                         "name": "A.K.I."
                     },
                     {
@@ -2999,47 +3243,52 @@
                     },
                     {
                         "characterId": 15,
-                        "winRate": "18.99%",
+                        "winRate": "25.58%",
                         "name": "Blanka"
                     },
                     {
                         "characterId": 16,
-                        "winRate": "60.00%",
+                        "winRate": "46.67%",
                         "name": "Juri"
                     },
                     {
                         "characterId": 17,
-                        "winRate": "63.64%",
+                        "winRate": "52.94%",
                         "name": "Marisa"
                     },
                     {
                         "characterId": 18,
-                        "winRate": "44.44%",
+                        "winRate": "100.00%",
                         "name": "Guile"
                     },
                     {
                         "characterId": 19,
-                        "winRate": "30.00%",
+                        "winRate": "35.29%",
                         "name": "Ed"
                     },
                     {
                         "characterId": 20,
-                        "winRate": "25.00%",
+                        "winRate": "N/A",
                         "name": "Edmond Honda"
                     },
                     {
                         "characterId": 21,
-                        "winRate": "61.11%",
+                        "winRate": "50.00%",
                         "name": "Jamie"
                     },
                     {
+                        "characterId": 22,
+                        "winRate": "33.93%",
+                        "name": "Akuma"
+                    },
+                    {
                         "characterId": 254,
-                        "winRate": "100.00%",
+                        "winRate": "50.00%",
                         "name": "Random"
                     },
                     {
                         "characterId": 253,
-                        "winRate": "43.64%",
+                        "winRate": "45.45%",
                         "name": "Any"
                     }
                 ]

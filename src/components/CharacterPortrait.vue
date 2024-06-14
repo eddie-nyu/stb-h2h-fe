@@ -149,6 +149,13 @@ const characterLibrary = [{
     looks_right: false
 },
 {
+    character_id: 22,
+    character_name: "Akuma",
+    character_alpha: "AKUMA",
+    img_url: "https://www.streetfighter.com/6/assets/images/character/select_character22_over.png",
+    looks_right: false
+},
+{
     character_id: 254,
     character_name: "Random",
     character_alpha: "RANDOM",
@@ -262,6 +269,32 @@ const characterSpread = computed(() => {
                 <nav class="columns" v-if="playerObj != null && playerObj.stbStats != null">
                     <div class="column is-one-quarter has-text-centered">
                         <div>
+                            <p class="heading is-size-4"><strong>STB Set Wins</strong></p>
+                            <p class="title">{{ playerObj.stbStats.setWins }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STB Set Losses</strong></p>
+                            <p class="title">{{ playerObj.stbStats.setLosses }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STB Game Wins</strong></p>
+                            <p class="title">{{ playerObj.stbStats.gameWins }}</p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
+                            <p class="heading is-size-4"><strong>STB Game Losses</strong></p>
+                            <p class="title">{{ playerObj.stbStats.gameLosses }}</p>
+                        </div>
+                    </div>
+                </nav>
+                <!-- <nav class="columns" v-if="playerObj != null && playerObj.stbStats != null">
+                    <div class="column is-one-quarter has-text-centered">
+                        <div>
                             <p class="heading is-size-4"><strong>STL Set Wins</strong></p>
                             <p class="title">{{ playerObj.stbStats.setWins }}</p>
                         </div>
@@ -284,8 +317,8 @@ const characterSpread = computed(() => {
                             <p class="title">{{ playerObj.stbStats.gameLosses }}</p>
                         </div>
                     </div>
-                </nav>
-                <nav class="columns" v-else>
+                </nav> -->
+                <!-- <nav class="columns" v-else>
                     <div class="column is-one-quarter has-text-centered">
                         <div>
                             <p class="heading is-size-4"><strong>STL Set Wins</strong></p>
@@ -310,9 +343,9 @@ const characterSpread = computed(() => {
                             <p class="title">TBD</p>
                         </div>
                     </div>
-                </nav>
+                </nav> -->
                 <br />
-                <nav v-if="playerObj != null && playerObj.stbStats != null" class="columns">
+                <!-- <nav v-if="playerObj != null && playerObj.stbStats != null" class="columns">
                     <div class="column is-one-third has-text-centered">
                         <div>
                             <p class="heading is-size-4"><strong>Perfects</strong></p>
@@ -331,9 +364,9 @@ const characterSpread = computed(() => {
                             <p class="title">{{ playerObj.stbStats.chargeDenials }}</p>
                         </div>
                     </div>
-                </nav>
+                </nav> -->
                 <br v-if="playerObj != null && playerObj.stbStats != null" />
-                <time datetime="2016-1-1">Last Updated 6:54 AM - 29 Mar 2024</time>
+                <time datetime="2016-1-1">Last Updated 2:13 AM - 14 Jun 2024</time>
             </div>
         </div>
     </div>
