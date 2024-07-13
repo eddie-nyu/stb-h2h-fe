@@ -156,6 +156,13 @@ const characterLibrary = [{
     looks_right: false
 },
 {
+    character_id: 26,
+    character_name: "M. Bison",
+    character_alpha: "M. BISON",
+    img_url: "https://www.streetfighter.com/6/assets/images/character/select_character23_over.png",
+    looks_right: false
+},
+{
     character_id: 254,
     character_name: "Random",
     character_alpha: "RANDOM",
