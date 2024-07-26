@@ -38,7 +38,19 @@ import GorisTv from './data/Spaceboy_stats.json';
 import Vasiliek from './data/Terbs_stats.json';
 import Yungdre from './data/TheChallenger_stats.json';
 
-const playerList = [Erebus, GalaxyBran, Jeyy, RyukenBlue, FallenConscript, GMGNARCOS, MrNoodles, PinkMegamanRyu, ShadowAce, Splurge, TheDeltaNiner, GreenKnight, Jumbuno, GalaxyBr0z, Ninun, GoldViltrumite, LastLune, GorisTv, Vasiliek, Yungdre];
+import BigJenks from './data/BigJenks_stats.json';
+import ElysianDivinity from './data/ElysianDivinity_stats.json';
+import Integra from './data/Integra_stats.json';
+import IronKnit from './data/IronKnit_stats.json';
+import Kirbee from './data/Kirbee_stats.json';
+
+import Lunien from './data/Lunien_stats.json';
+import RoseEmpressTora from './data/RoseEmpressTora_stats.json';
+import SimplyEgo from './data/SimplyEgo_stats.json';
+import Tolitir from './data/Tolitir_stats.json';
+import ValiantShade from './data/ValiantShade_stats.json';
+
+const playerList = [BigJenks, ElysianDivinity, Integra, IronKnit, Kirbee, Lunien, RoseEmpressTora, SimplyEgo, ValiantShade, Tolitir];
 
 console.log(playerList);
 
@@ -116,11 +128,11 @@ export const usePlayerStore = defineStore('player', () => {
     },
     {
       id: 102,
-      name: 'Team Vasiliek'
+      name: 'Team SimplyEgo'
     },
     {
       id: 103,
-      name: 'Team Apology Boy'
+      name: 'Team Integra'
     }
   ]);
 
