@@ -373,7 +373,7 @@ const characterSpread = computed(() => {
                     </div>
                 </nav> -->
                 <br v-if="playerObj != null && playerObj.stbStats != null" />
-                <time datetime="2016-1-1">Last Updated 2:13 AM - 14 Jun 2024</time>
+                <time datetime="2016-1-1">Last Updated 5:13 PM - 02 Aug 2024</time>
             </div>
         </div>
     </div>

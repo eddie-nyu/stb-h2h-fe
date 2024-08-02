@@ -138,7 +138,7 @@ export const usePlayerStore = defineStore('player', () => {
     },
     {
       id: 102,
-      name: 'Team Sykotic'
+      name: 'Team Hanma'
     },
     {
       id: 103,
