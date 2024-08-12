@@ -1,66 +1,18 @@
 import { ref, reactive, computed } from 'vue'
 import { defineStore } from 'pinia'
-// import Arctic_ from './data/Arctic__stats.json';
-// 
-// import CuhzLightYear from './data/CuhzLightYear_stats.json';
-// import DoctaAfrikan from './data/DoctaAfrikan_stats.json';
-// import Dotmp3 from './data/Dotmp3_stats.json';
-import GalaxyBran from './data/GalaxyBran_stats.json';
-// import GranTodakai from './data/GranTodakai_stats.json';
-import GreenKnight from './data/GreenKnight_stats.json';
-// import Heartless from './data/Heartless_stats.json';
-// import Hugo_claps from './data/Hugo_claps_stats.json';
-import Jeyy from './data/Jeyy_stats.json';
-import Jumbuno from './data/Jumbuno_stats.json';
-// import Kasual from './data/Kasual_stats.json';
-// import Marv_ from './data/Marv__stats.json';
-import Ninun from './data/Ninun_stats.json';
-// import PresidentNeko from './data/PresidentNeko_stats.json';
-import RyukenBlue from './data/RyukenBlue_stats.json';
-// import Tolitir from './data/Tolitir_stats.json';
-// import UnusualOkkurence from './data/UnusualOkkurence_stats.json';
 
-import GMGNARCOS from './data/GMGNARCOS_stats.json';
-import MrNoodles from './data/MrNoodles_stats.json';
-import PinkMegamanRyu from './data/PinkMegamanRyu_stats.json';
-import ShadowAce from './data/ShadowAce_stats.json';
-import Splurge from './data/Splurge_stats.json';
-//cutoff
-import TheDeltaNiner from './data/Brutus_stats.json';
-// import GreenKnight from './data/GearFGC_stats.json';
-// import gmg_glick from './data/gmg_glick_stats.json';
-import GalaxyBr0z from './data/HawkHatter_stats.json';
-// import Inhaledsolid from './data/Inhaledsolid_stats.json';
-import GoldViltrumite from './data/Kirby_stats.json';
-import LastLune from './data/SagePlatinum_stats.json';
-import GorisTv from './data/Spaceboy_stats.json';
-import Vasiliek from './data/Terbs_stats.json';
-import Yungdre from './data/TheChallenger_stats.json';
+import BigJenks from './data/Big Jenks_stats.json';
+import CandyManFight from './data/CandyManFight_stats.json';
+import Carpricious from './data/Carpricious_stats.json';
+import GMG_NARCOS from './data/GMG_NARCOS_stats.json';
+import GraciaBorealis from './data/Gracia Borealis_stats.json';
+import Isabella from './data/Isabella_stats.json';
+import Jaw from './data/Jaw_stats.json';
+import JustLemillion from './data/JustLemillion_stats.json';
+import StrongestWoman from './data/Strongest Woman_stats.json';
+import XX from './data/XX_stats.json';
 
-import BigJenks from './data/BigJenks_stats.json';
-import Integra from './data/Integra_stats.json';
-import IronKnit from './data/IronKnit_stats.json';
-import Kirbee from './data/Kirbee_stats.json';
-
-import Lunien from './data/Lunien_stats.json';
-import RoseEmpressTora from './data/RoseEmpressTora_stats.json';
-import SimplyEgo from './data/SimplyEgo_stats.json';
-import Tolitir from './data/Tolitir_stats.json';
-import ValiantShade from './data/ValiantShade_stats.json';
-
-import ChirperSmurf from './data/ChirperSmurf_stats.json';
-import StepIV from './data/StepIV_stats.json';
-import WeirdWeirdo from './data/WeirdWeirdo_stats.json';
-import ElysianDivinity from './data/ElysianDivinity_stats.json';
-import SykoticChaos from './data/SykoticChaos_stats.json';
-
-import FallenConscript from './data/FallenConscript_stats.json';
-import GearsFGC from './data/GearsFGC_stats.json';
-import Erebus from './data/Erebus_stats.json';
-import FuriousMalik from './data/FuriousMalik_stats.json';
-import Cassius_Ray from './data/CassiusRay_stats.json';
-
-const playerList = [ChirperSmurf, StepIV, WeirdWeirdo, ElysianDivinity, SykoticChaos, FallenConscript, GearsFGC, Erebus, FuriousMalik, Cassius_Ray];
+const playerList = [BigJenks, CandyManFight, Carpricious, GMG_NARCOS, GraciaBorealis, Isabella, Jaw, JustLemillion, StrongestWoman, XX];
 
 console.log(playerList);
 
@@ -138,11 +90,11 @@ export const usePlayerStore = defineStore('player', () => {
     },
     {
       id: 102,
-      name: 'Team Hanma'
+      name: 'Team Jaw'
     },
     {
       id: 103,
-      name: 'Team STB'
+      name: 'Team Isabella'
     }
   ]);
 
