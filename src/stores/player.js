@@ -1,16 +1,16 @@
 import { ref, reactive, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-import BigJenks from './data/Big Jenks_stats.json';
-import CandyManFight from './data/CandyManFight_stats.json';
-import Carpricious from './data/Carpricious_stats.json';
-import GMG_NARCOS from './data/GMG_NARCOS_stats.json';
-import GraciaBorealis from './data/Gracia Borealis_stats.json';
-import Isabella from './data/Isabella_stats.json';
-import Jaw from './data/Jaw_stats.json';
-import JustLemillion from './data/JustLemillion_stats.json';
-import StrongestWoman from './data/Strongest Woman_stats.json';
-import XX from './data/XX_stats.json';
+import BigJenks from './data/Immortal_stats.json';
+import CandyManFight from './data/Biggamal_stats.json';
+import Carpricious from './data/BreezyMan_stats.json';
+import GMG_NARCOS from './data/Challenger_stats.json';
+import GraciaBorealis from './data/JimmyDR_stats.json';
+import Isabella from './data/MoshpitMessiah_stats.json';
+import Jaw from './data/Ninun_stats.json';
+import JustLemillion from './data/NYCMax_stats.json';
+import StrongestWoman from './data/Squid_stats.json';
+import XX from './data/Teach_stats.json';
 
 const playerList = [BigJenks, CandyManFight, Carpricious, GMG_NARCOS, GraciaBorealis, Isabella, Jaw, JustLemillion, StrongestWoman, XX];
 
@@ -90,11 +90,11 @@ export const usePlayerStore = defineStore('player', () => {
     },
     {
       id: 102,
-      name: 'Team Jaw'
+      name: 'Team JimmyDR'
     },
     {
       id: 103,
-      name: 'Team Isabella'
+      name: 'Team BreezyMan'
     }
   ]);
 
